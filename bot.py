@@ -1,6 +1,5 @@
 import telebot
 token = '6935918318:AAGXB5Mdfcl9jHGRHAI66hO61foGhv8FQyA'
-import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 print('Загрузка...')
 tokenizer = AutoTokenizer.from_pretrained('mc')
